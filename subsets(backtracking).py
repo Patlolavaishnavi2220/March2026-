@@ -1,3 +1,4 @@
+#leet code solution for subsets
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         def generate(ind,ans,curr_subset,nums):
